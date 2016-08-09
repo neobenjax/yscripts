@@ -7,4 +7,7 @@ git pull
 echo "git status"
 echo ""
 git status
+echo "git log"
+echo ""
+git log
 echo "EOF"
