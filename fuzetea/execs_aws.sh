@@ -21,4 +21,10 @@ unzip ssluploads.zip -d /var/www/html/assets/uploads
 echo "============================"
 echo "FIN UNZIP"
 echo "============================"
+echo "git status"
+echo "============================"
+echo ""
+git status
+echo "============================"
 echo "EOF"
+echo "============================"
