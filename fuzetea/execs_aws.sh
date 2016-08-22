@@ -1,15 +1,15 @@
 #!/bin/sh
 cd /var/www/html/
-echo "Inicio de log script remoto"
+# echo "Inicio de log script remoto"
 git pull
 #git checkout ajustes-sin-descarga-playera
 #git pull
-echo "git status"
-echo ""
-git status
-echo "git log"
-echo ""
-git log
+# echo "git status"
+# echo ""
+# git status
+# echo "git log"
+# echo ""
+# git log
 #Pase de imagenes de SSL a SESSIONS
 # echo "Obtencion del zip de la ruta"
 # echo "============================"
@@ -26,6 +26,6 @@ git log
 # echo "============================"
 # echo ""
 # git status
-echo "============================"
-echo "EOF"
-echo "============================"
+# echo "============================"
+# echo "EOF"
+# echo "============================"
