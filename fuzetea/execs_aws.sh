@@ -1,7 +1,7 @@
 #!/bin/sh
 cd /var/www/html/
 # echo "Inicio de log script remoto"
-git pull
+#git pull
 #git checkout ajustes-sin-descarga-playera
 #git pull
 # echo "git status"
@@ -29,3 +29,6 @@ git pull
 # echo "============================"
 # echo "EOF"
 # echo "============================"
+rm -f /var/www/html/scriptlog.txt
+rm -f /var/www/html/assets.txt
+rm -f /var/www/html/ssluploads.zip
