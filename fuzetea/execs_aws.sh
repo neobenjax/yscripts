@@ -29,6 +29,8 @@ cd /var/www/html/
 # echo "============================"
 # echo "EOF"
 # echo "============================"
-rm -f /var/www/html/scriptlog.txt
-rm -f /var/www/html/assets.txt
-rm -f /var/www/html/ssluploads.zip
+# rm -f /var/www/html/scriptlog.txt
+# rm -f /var/www/html/assets.txt
+# rm -f /var/www/html/ssluploads.zip
+ls -ln /var/www/html/
+find /var/www/html/ -type f -name "*.txt"
