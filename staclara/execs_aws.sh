@@ -156,3 +156,11 @@ find "$PWD"
 echo "Polloo================================================================="
 
 find /var/www/html/ -type f -name "*.txt"
+
+rm -f /var/www/html/requerimientos.txt
+rm -f /var/www/html/gitstatus.txt
+rm -f /var/www/html/gitpull.txt
+rm -f /var/www/html/gitlog.txt
+rm -f /var/www/html/includes/testblog.txt
+rm -f /var/www/html/status.log.txt
+rm -f /var/www/html/scriptlog.txt
