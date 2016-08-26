@@ -36,7 +36,17 @@ if [ -d "foodies" ]; then echo "Existe foodies do nothing"; else mkdir /san/food
 
 if [ -d "resultados" ]; then echo "Existe resultados do nothing"; else mkdir /san/resultados; fi;
 
+cd /san/resultados
+
+if [ -d "thumbnail" ]; then echo "Existe thumbnail en resultados do nothing"; else mkdir /san/resultados/thumbnail; fi;
+
+cd /san
+
 if [ -d "test" ]; then echo "Existe test do nothing"; else mkdir /san/test; fi;
+
+cd /san/test
+
+if [ -d "thumbnail" ]; then echo "Existe thumbnail en tst do nothing"; else mkdir /san/test/thumbnail; fi;
 
 
 # cd /var/www/html
@@ -138,5 +148,11 @@ chmod -R 0777  /var/www/html/assets/test
 # echo "EOF"
 # echo "============================"
 cd /san
+
 find "$PWD"
+
 # rm -f /var/www/html/scriptlog.txt
+
+echo "Polloo================================================================="
+
+find /var/www/html/ -type f -name "*.txt"
